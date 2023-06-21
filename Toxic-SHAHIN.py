@@ -1,8 +1,8 @@
 #########################################
 # ToxicBomber
 # A Bangladeshi SMS Bomber Tool
-# Author: SHAHIN Inc.
-# GitHub: https://github.com/shahin1953491
+# Author: ToxicNoob Inc.
+# GitHub: https://github.com/Toxic-Noob
 # Version: 4.1.0
 #########################################
 
@@ -52,7 +52,7 @@ def update():
     try:
         toolVersion = json.loads(open("./more/.version", "r").read())["version"]
     except:
-        toolVersion = "SHAHIN"
+        toolVersion = "Toxic SHAHIN"
     
     try:
         authorMsg = open("./more/.msg", "r").read().replace("\n", "")
